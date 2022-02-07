@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Formulario de Guild</title>
+	<meta charset="UTF-8" />
+	<meta name="author" CONTENT="Alejandro Lana"/>
+	<meta name="description" CONTENT="Ej1 Iframe"/>
+	<meta name="editor" CONTENT="Manual"/>
+	<meta name="keywords" LANG="es" CONTENT="HTML curso cabecera, html, página web"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link href="../css/Form.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="Contenedor">
+<form name="Guild Recruit" method="post" enctype="text/plain" action="mailto:alejandrolana1@gmail.com">
+	<header class="Objetivos">
+		<h1>
+		<b>Formulario de Inscripción a Pandemia &nbsp; </b><input name="botonenvio" type="submit" value="Enviar al administrador" class="boton"/><input name="botonreset" type="reset" value="Limpiar Datos" class="boton" />
+		</h1>
+		<datalist id="ListaServidores">
+			<option label="Mandokir" value="Mandokir">
+			<option label="Firemaw" value="Firemaw">
+			<option label="Golemag" value="Golemag">
+			<option label="C'thun" value="C'thun">
+			<option label="Amnear" value="Amnear">
+			<option label="Ashbringer" value="Ashbringer">
+			<option label="Auberdine" value="Auberdine">
+			<option label="Bloodfang" value="Bloodfang">
+			<option label="Dragonfang" value="Dragonfang">
+		</datalist>
+
+		<datalist id="Rangos">
+			<option label="Solo para divertirse sin compromisos" value="Social" >
+			<option label="2 semanas de trial con compromiso" value="Raider">
+			<option label="Necesario tener méritos anteriores en wow comprobables" value="Oficial">
+		</datalist>
+		<fieldset class="centro">
+		<h2>Datos del Personaje y Aplicante</h2>
+		<table  class="jugador">
+			<tr>
+				<td><label><b>Nombre de Personaje &nbsp; &nbsp; &nbsp; </b><input type="Text" name="Nombre del Personaje" size="35" required /></label></td>
+				<td><label><b>Nombre del Jugador &nbsp; &nbsp; &nbsp; </b> <input type="Text" name="Nombre Player" size="35" required /></label></td>
+				<td><label><b>Servidor &nbsp; &nbsp; &nbsp;</b> <input type="text" id="servidor" name="servidorES" list="ListaServidores" size="35" required /></label></td>
+			</tr>
+			
+			<tr>
+				<th class="centro">Clase</th>
+				<th colspan="2">Especialización</th>
+			</tr>
+			
+			<tr>
+				<td class="centro">
+					<label>Brujo<input type="radio"  name="clase" value="brujo" required /></label> <img src="../media/imagenes/warlock.png" class="icono" alt="cosa" /> 
+					<label>Sacerdote<input type="radio"  name="clase" value="Sacerdote"  /></label> <img src="../media/imagenes/sacerdote.png" class="icono" alt="cosa"/>
+					<label>Paladin<input type="radio"  name="clase" value="Paladin"/></label> <img src="../media/imagenes/paladin.png" class="icono" alt="cosa"/>
+					<label>Pícaro<input type="radio"  name="clase" value="Pícaro"/></label> <img src="../media/imagenes/rogue.png" class="icono" alt="cosa"/> <br>
+					<label>Druida<input type="radio"  name="clase" value="Druida"/></label> <img src="../media/imagenes/druida.png" class="icono" alt="cosa"/>
+					<label>Cazador<input type="radio"  name="clase" value="Cazador"/></label> <img src="../media/imagenes/hunter.png" class="icono" alt="cosa"/> 
+					<label>Chamán<input type="radio"  name="clase" value="Chamán"/></label> <img src="../media/imagenes/chaman.png" class="icono" alt="cosa"/>
+					<label>Mago<input type="radio"  name="clase" value="Mago"/></label> <img src="../media/imagenes/mago.png" class="icono" alt="cosa"/> 
+				</td>
+				<td colspan="2" class="centro">
+					<label>Demonología<input type="radio"  name="spec" required value="Demonología"/></label> <img src="../media/imagenes/warlock.png" class="icono" alt="cosa"/>
+					<label>Sagrado<input type="radio"  name="spec" value="Sagrado"/></label> <img src="../media/imagenes/sacerdote.png" class="icono" alt="cosa"/>
+					<label>Sagrado<input type="radio"  name="spec" value="Sagrado"/></label> <img src="../media/imagenes/paladin.png" class="icono" alt="cosa"/> 
+					<label>Combate<input type="radio"  name="spec" value="Combate"/></label> <img src="../media/imagenes/rogue.png" class="icono" alt="cosa"/>
+					<label>Feral<input type="radio"  name="spec" value="Feral"/></label> <img src="../media/imagenes/druida.png" class="icono" alt="cosa"/>
+					<label>Puntería<input type="radio"  name="spec" value="Puntería"/></label> <img src="../media/imagenes/hunter.png" class="icono" alt="cosa"/> 
+					<label>Mejora<input type="radio"  name="spec" value="Mejora"/></label> <img src="../media/imagenes/chaman.png" class="icono" alt="cosa"/> 
+					<label>Fuego<input type="radio"  name="spec" value="Fuego"/></label> <img src="../media/imagenes/mago.png" class="icono" alt="cosa"/><br>
+					
+					<label>Destrucción<input type="radio"  name="spec" value="Destrucción"/></label> <img src="../media/imagenes/warlock.png" class="icono" alt="cosa"/>
+					<label>Disciplina<input type="radio"  name="spec" value="Disciplina"/></label> <img src="../media/imagenes/sacerdote.png" class="icono " alt="cosa"/>
+					<label>Protección<input type="radio"  name="spec" value="Protección"/></label> <img src="../media/imagenes/paladin.png" class="icono" alt="cosa"/>
+					<label>Sutileza<input type="radio"  name="spec" value="Sutileza"/></label> <img src="../media/imagenes/rogue.png" class="icono" alt="cosa"/>
+					<label>Balance<input type="radio"  name="spec" value="Balance"/></label> <img src="../media/imagenes/druida.png" class="icono" alt="cosa"/> 
+					<label>Bestias<input type="radio"  name="spec" value="Bestias"/></label> <img src="../media/imagenes/hunter.png" class="icono" alt="cosa"/>
+					<label>Elemental<input type="radio"  name="spec" value="Elemental"/></label> <img src="../media/imagenes/chaman.png" class="icono" alt="cosa"/>
+					<label>Hielo<input type="radio"  name="spec" value="Hielo"/></label> <img src="../media/imagenes/mago.png" class="icono" alt="cosa"/><br>
+					 
+					<label>&nbsp; &nbsp; Aflicción <input type="radio"  name="spec" value="Aflicción"/></label> <img src="../media/imagenes/warlock.png" class="icono" alt="cosa"/>
+					<label>Sombras<input type="radio"  name="spec" value="Sombras"/></label> <img src="../media/imagenes/sacerdote.png" class="icono" alt="cosa"/>
+					<label>Retribución<input type="radio"  name="spec" value="Retribución"/></label> <img src="../media/imagenes/paladin.png" class="icono" alt="cosa"/>
+					<label>Foragido<input type="radio"  name="spec" value="Foragido"/></label> <img src="../media/imagenes/rogue.png" class="icono" alt="cosa"/> 
+					<label>Restauración<input type="radio"  name="spec" value="Restauración"/></label> <img src="../media/imagenes/druida.png" class="icono" alt="cosa"/>
+					<label>Survi<input type="radio"  name="spec" value="Supervivencia"/></label> <img src="../media/imagenes/hunter.png" class="icono" alt="cosa"/>
+					<label>Restauración<input type="radio"  name="spec" value="Restauración"/></label> <img src="../media/imagenes/chaman.png" class="icono" alt="cosa"/> 
+					<label>Arcano<input type="radio"  name="spec" value="Arcano"/></label> <img src="../media/imagenes/mago.png" class="icono" alt="cosa"/><br>
+				</td>
+			</tr>
+			<tr>
+				<td><label><b>Edad &nbsp; &nbsp; &nbsp; </b><input type="number" name="Edad" max="80" min="16" required /></label></td>
+				<td><label><b>Correo Electrónico &nbsp; &nbsp; &nbsp; </b> <input type="email" placeholder="pepe@ejemplo.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="45" required /></label></td>
+				<td><label><b>Disponibilidad Horaria &nbsp; &nbsp; &nbsp; </b> <input type="text" id="disponibilidad" placeholder="Ej:Lunes a jueves de 8-12" size="35" required /></label></td>
+			</tr>
+		</table>
+		</fieldset>
+	</header>
+	<fieldset class="centro">
+	<div class="Objetivos">
+	<h2>Objetivos</h2>
+	<table>
+		<tr>
+			<td colspan="2"><label><b>Como Nos conociste &nbsp; &nbsp; &nbsp; </b> <input type="text" name="conocer" id="conocer" placeholder="amigo,ingame..." size="90" required /></label></td>
+			<td><label><b>Que Rango se Busca &nbsp; &nbsp; &nbsp; </b><input type="text" id="rango" name="rango" list="Rangos" size="90" required /></label></td>
+		</tr>
+		
+		<tr>
+			<td colspan="3" class="centro"><b>Porque quieres dicho rango &nbsp; &nbsp; &nbsp;</b> <textarea name="porque rango" cols="200" rows="3"></textarea></td>
+		</tr>
+	</table>
+	</div>
+	</fieldset>
+
+	<fieldset class="centro">
+	<div class="Objetivos">
+	<h2>Jugador</h2>
+	<table  class="jugador">
+		<tr>
+			<td colspan="2">
+				<b>Experiencia Previa en WOW &nbsp; &nbsp; &nbsp; </b><br>
+				<label>Si &nbsp; &nbsp; &nbsp; <input type="radio" name="si"   value ="si" required /></label><br> 
+				<label>No &nbsp; &nbsp; &nbsp; <input type="radio" name="si"  value ="no"/></label>
+			</td>
+			<td>
+				<b>(En el caso de que no, no responda las siguientes preguntas y pase al siguiente bloque)</b>
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="3"><b>Progreso en la actual expansión</b></td>
+		</tr>
+		
+		<tr>
+			<td colspan="3">
+				<textarea name="Progreso" cols="200" rows="6"></textarea>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<b>¿Estuviste en alguna otra hermandad? &nbsp; &nbsp; &nbsp; </b><br>
+				<label>Si &nbsp; &nbsp; &nbsp; <input type="radio" name="no"  value ="si"/></label><br> 
+				<label>No &nbsp; &nbsp; &nbsp; <input type="radio" name="no"  value ="no"/></label>
+			</td>
+			<td colspan="2">
+				<label><b>Motivo por el que la dejaste/te echaron &nbsp; &nbsp; &nbsp; </b><input type="text" id="dejar" name="me fui" size="120"/></label>
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="3"><b>Mayores Logros en World of Warcraft (adjuntar pruebas)</b></td> 
+		</tr>
+
+		<tr>
+			<td colspan="3">
+				<textarea name="Logros" cols="200" rows="10"></textarea><br>
+				<input type="file" name="imagen" />
+			</td>
+		</tr>
+	</table>
+	</div>
+	</fieldset>
+	<fieldset class="centro">
+	<div class="Objetivos">
+	<h2>Interfaz y futuro</h2>
+	<table  class="jugador">
+
+		<tr>
+			<td colspan="3"><label><b>Adjunte imágen de su interfaz de juego &nbsp; &nbsp; &nbsp; </b><input type="file" name="interfaz" required /></label></td>
+		</tr>
+
+		<tr>
+			<td colspan="3"><b>Porque crees que deberías estar en .....</b></td>
+		</tr>
+		
+		<tr>
+			<td colspan="3">
+				<textarea name="Motivo" cols="200" rows="10" required ></textarea>
+			</td>
+		</tr>
+	</table>
+	</div>
+	</fieldset>
+	<fieldset class="centro">
+	<div class="Objetivos">
+	<h2>Añadidos</h2>
+	<table  class="jugador">
+		<tr>
+			<td colspan="3"><b>¿Algo más que crea que debe añadir?</b></td>
+		</tr>
+		
+		<tr>
+			<td colspan="3">
+				<textarea name="añadir" cols="200" rows="6"></textarea>
+			</td>
+		</tr>
+	</table>
+	</div>
+	</fieldset>
+	</div>
+	</form>
+</body>
+</html>

@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	cursor: url(https://cur.cursors-4u.net/games/gam-4/gam375.cur), auto !important;
+}
+
+body{
+	background-image:url(../media/imagenes/fondoform.png);
+	background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+td{
+	border:1px solid black;
+}
+
+h1{
+	text-align:center;
+}
+
+div{
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#Contenedor{
+	width: 1800px;
+	height: 1350px;
+	position:relative;
+	z-index:500;
+}
+
+#Cabecera{
+	width:100%;
+	height:auto;
+}
+
+.Objetivos{
+	width:100%;
+	height:auto;
+	margin-top:10px;
+}
+
+
+
+.jugador{
+	width:98%;
+	position:relative;
+	text-align:center;
+	border:1px solid black
+}
+
+.icono{
+	
+	width:25px;
+	height:25px;
+}
+
+.centro{
+	text-align:center;
+}
+
+.boton{
+	height:50px;
+	width:200px;
+	background-color:white;
+	
