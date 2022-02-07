@@ -109,7 +109,7 @@ li{
 	height:800px;
 	border:10px solid black;
 	position:relative;
-	background-image:url(../media/imagenes/Pizarra.png);
+	background-image:url(../media/imagenes/pizarra.png);
 	background-repeat: no-repeat;
 	background-size:100% 100%;
 }
@@ -121,7 +121,7 @@ li{
 	position:relative;
 	left:1450px;
 	bottom:835px;
-	background-image:url(../media/imagenes/Pizarra.png);
+	background-image:url(../media/imagenes/pizarra.png);
 	background-repeat: no-repeat;
 	background-size:100% 100%;
 }
@@ -135,7 +135,7 @@ li{
 	position:relative;
 	left:1450px;
 	bottom:835px;
-	background-image:url(../media/imagenes/Pizarra.png);
+	background-image:url(../media/imagenes/pizarra.png);
 	background-repeat: no-repeat;
 	background-size:100% 100%;
 }
@@ -149,7 +149,7 @@ li{
 	left:450px;
 	bottom:2814px;
 	font-size:28px;
-	background-image:url(../media/imagenes/Pizarra.png);
+	background-image:url(../media/imagenes/pizarra.png);
 	background-repeat: no-repeat;
 	background-size:100% 100% ;
 }
