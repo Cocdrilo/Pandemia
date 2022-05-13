@@ -1,0 +1,10 @@
+body{
+	background-image:url("https://i.pinimg.com/originals/5a/4c/3b/5a4c3b6427273a3e08fc1f62a8846cca.jpg");
+}
+
+th {
+  background-color: #04AA6D;
+  color: blue;
+}
+
+tr:hover {background-color: grey;}

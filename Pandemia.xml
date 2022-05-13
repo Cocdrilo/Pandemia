@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Consultas.xsl"?>
+<!DOCTYPE cocdrilo[
+<!ELEMENT cocdrilo (aplicante*)>
+<!ELEMENT aplicante (horario, nombre-jugador, personaje+, edad, experiencia_previa, correo-electronico?)>
+<!ELEMENT horario (#PCDATA)>
+<!ELEMENT nombre-jugador (#PCDATA)>
+<!ELEMENT personaje (clase,spec?)>
+<!ELEMENT clase (#PCDATA)>
+<!ELEMENT spec (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT experiencia_previa (#PCDATA)>
+	<!ATTLIST experiencia_previa opcion (Si | No) #REQUIRED>
+<!ELEMENT correo-electronico (#PCDATA)>
+]>
+
+<cocdrilo>
+	<aplicante>
+		<horario>L-J 18-22</horario>
+		<nombre-jugador>Braveras</nombre-jugador>
+		<personaje>
+			<clase>Brujo</clase>
+			<spec>Demonologia</spec>
+		</personaje>
+		
+		<personaje>
+			<clase>Chaman</clase>
+			<spec>Mejora</spec>
+		</personaje>
+		
+		<personaje>
+			<clase>Guerrero</clase>
+			<spec>Furia</spec>
+		</personaje>
+		<edad>18</edad>
+		<experiencia_previa opcion="Si">Si</experiencia_previa>
+		<correo-electronico>Braveras@elsupersayanlegendario.com</correo-electronico>
+	</aplicante>
+	<aplicante>
+		<horario>V-D 15-24</horario>
+		<nombre-jugador>Cocdrilo</nombre-jugador>
+		<personaje>
+			<clase>Sacerdote</clase>
+		</personaje>
+		<edad>17</edad>
+		<experiencia_previa opcion="No">No</experiencia_previa>
+		<correo-electronico>coc@gimail.new</correo-electronico>
+	</aplicante>
+	<aplicante>
+		<horario>L-D 08-24</horario>
+		<nombre-jugador>NevyNev</nombre-jugador>
+		<personaje>
+			<clase>Hunter</clase>
+			<spec>Bestias</spec>
+		</personaje>
+		<edad>25</edad>
+		<experiencia_previa opcion="Si">Si</experiencia_previa>
+		<correo-electronico>blacky@black.com</correo-electronico>
+	</aplicante>
+	<aplicante>
+		<horario>M-X 14-24</horario>
+		<nombre-jugador>21cmtruedmg</nombre-jugador>
+		<personaje>
+			<clase>Druida</clase>
+			<spec>Feral</spec>
+		</personaje>
+		
+		<personaje>
+			<clase>Brujo</clase>
+			<spec>Afliccion</spec>
+		</personaje>
+		<edad>29</edad>
+		<experiencia_previa opcion="Si">Si</experiencia_previa>
+	</aplicante>
+</cocdrilo>

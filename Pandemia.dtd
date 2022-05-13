@@ -1,0 +1,13 @@
+<!DOCTYPE cocdrilo[
+<!ELEMENT cocdrilo (aplicante*)>
+<!ELEMENT aplicante (horario, nombre-jugador, personaje+, edad, experiencia_previa, correo-electronico?)>
+<!ELEMENT horario (#PCDATA)>
+<!ELEMENT nombre-jugador (#PCDATA)>
+<!ELEMENT personaje (clase,spec?)>
+<!ELEMENT clase (#PCDATA)>
+<!ELEMENT spec (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT experiencia_previa (#PCDATA)>
+	<!ATTLIST experiencia_previa opcion (Si | No) #REQUIRED>
+<!ELEMENT correo-electronico (#PCDATA)>
+]>
